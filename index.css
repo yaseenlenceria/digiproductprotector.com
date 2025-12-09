@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1e293b; 
+}
+::-webkit-scrollbar-thumb {
+  background: #475569; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b; 
+}
+
+/* Markdown Styles */
+.markdown-prose ul {
+  list-style-type: disc;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+.markdown-prose p {
+  margin-bottom: 0.75rem;
+}
+.markdown-prose strong {
+  font-weight: 700;
+  color: inherit;
+}
